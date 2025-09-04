@@ -63,21 +63,21 @@ header h1 {
     line-height: 1.5;
 }
 
-.buy-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #00c000; /* Color Hotmart */
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 1em;
-    transition: background-color 0.3s ease;
+.btn { /* Esto es para el botón normal */
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #00c900; /* Color Hotmart */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
 }
 
-.buy-button:hover {
-    background-color: #009900;
+.btn:hover { /* Esto es para cuando pasas el mouse por encima */
+  background-color: #00a000;
 }
 
 footer {
@@ -165,4 +165,5 @@ footer {
         margin: 1em;
         padding: 1em;
     }
+
 }
