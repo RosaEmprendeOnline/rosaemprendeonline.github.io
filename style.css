@@ -165,4 +165,13 @@ footer {
         margin: 1em;
         padding: 1em;
     }
+
+}.cursos-section {
+  text-align: center;
+}
+
+.cursos-card {
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left; /* para que el texto dentro no quede todo centrado */
 }
