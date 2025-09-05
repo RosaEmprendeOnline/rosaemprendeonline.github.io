@@ -174,7 +174,9 @@ footer {
   margin: 0 auto;
   display: inline-block;
   text-align: left; /* para que el texto dentro no quede todo centrado */
-}.curso-card {
+}
+
+.curso-card {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -200,5 +202,6 @@ footer {
 .btn-comprar:hover {
   background-color: #218838;
 }
+
 
 
