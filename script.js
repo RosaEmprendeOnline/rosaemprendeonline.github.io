@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cursoCard = document.createElement('div');
     cursoCard.classList.add('curso-card');
 
-    cursoCard.innerHTML = `
+   <!-- <script src="script.js" defer></script> -->
         <img src="${curso.imagen}" alt="Imagen del curso" class="curso-img">
         <h3>${curso.nombre}</h3>
         <p>${curso.descripcion}</p>
@@ -25,3 +25,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
