@@ -49,5 +49,80 @@ section, header, footer{
 .email-link:hover{filter:brightness(.95)}
 
 /* Footer */
-.site-footer{text-align:center; color:#777}
+.site-footer{text-align:center; color:#777}/* =========== HEADER / LOGO =========== */
+.site-header { text-align: center; }
+.logo{
+  max-width: 120px;     /* antes era grande; ahora el logo queda pequeño */
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 8px;
+}
+
+/* =========== TARJETAS / CONTENEDORES =========== */
+section, header, footer{
+  max-width: 980px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.05);
+}
+
+/* =========== VIDEO =========== */
+.video-promo { text-align: center; }
+.video-promo video{
+  width: 100%;
+  max-width: 720px;    /* video ancho y cómodo */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* =========== CURSO DESTACADO =========== */
+.cursos-section { text-align: center; }
+
+.curso-card{
+  display: inline-block;
+  text-align: left;
+  max-width: 760px;     /* más ancho para que el texto no se corte */
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.curso-img{
+  width: 100%;
+  height: auto;
+  max-height: 260px;     /* evita que la imagen “empalme” con el texto */
+  object-fit: cover;     /* recorta por los bordes manteniendo proporción */
+  border-radius: 10px;
+}
+
+/* Asegura que el texto no se corte */
+.curso-card p, .beneficios{
+  white-space: normal;
+  overflow: visible;
+}
+
+.beneficios{ padding-left: 18px; margin: 10px 0 0 0; }
+
+/* =========== BOTÓN VERDE =========== */
+.btn{
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 22px;
+  background: #28a745;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: filter .2s ease;
+}
+.btn:hover{ filter: brightness(.95); }
+
+
 
