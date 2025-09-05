@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         descripcion: "Aprende a crear, crecer y monetizar de la mano de expertos.",
         descripcionLarga: "Beneficios que tendrás de por vida en Blacks University 🌿 Mentorías en vivo ilimitadas (lunes a viernes). 🌿 Grabaciones de todas las mentorías disponibles siempre. 🌿 Acceso completo a la plataforma digital de Blacks University. 🌿 Franquicia educativa para ganar $70 por cada venta. 🌿 Comisiones del 50% en ventas a través de Hotmart. 🌿 Comunidad activa de usuarios para aprender y crecer juntos. 🌿 11,500 productos digitales listos para vender (hasta 80% de comisión). 🌿 Acceso a los contenidos de todos los productos para elegir los mejores. ¡Todo esto es de por vida y con acceso ilimitado!",
         imagen: "foto-curso.jpg",
-        hotmartLink: "TU_ENLACE_DE_AFILIADO_AQUÍ"
+        hotmartLink: "https://go.hotmart.com/F101258814Y?ap=c5cf"
     };
 
     const cursosContainer = document.getElementById('cursos-container');
@@ -22,5 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
 
     cursosContainer.appendChild(cursoCard);
+
 
 });
